@@ -7,14 +7,16 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1>Meditation Guide</h1>
-      <div className="home-buttons">
-        <button onClick={() => navigate("/exercises/meditation")}>
-          Meditation Exercises
-        </button>
-        <button onClick={() => navigate("/exercises/breathing")}>
-          Breathing Exercises
-        </button>
+      <div className="home-content">
+        <h1>Meditation Guide</h1>
+        <div className="home-buttons">
+          <button onClick={() => navigate("/exercises/meditation")}>
+            Meditation Exercises
+          </button>
+          <button onClick={() => navigate("/exercises/breathing")}>
+            Breathing Exercises
+          </button>
+        </div>
       </div>
     </div>
   );
