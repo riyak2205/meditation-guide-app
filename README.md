@@ -42,21 +42,5 @@ npm start
 Frontend runs at: http://localhost:3000
 If port 3000 is busy, it’ll prompt for another — press Y
 
-Project Structure:
-meditation-guide-app/
-├── backend/
-│   ├── server.js
-│   └── data/
-│       └── exercises.json
-├── frontend/
-│   ├── public/
-│   │   └── yoga.webp
-│   └── src/
-│       ├── App.jsx
-│       ├── index.js
-│       └── pages/
-│           ├── Home.jsx
-│           ├── Home.css
-│           ├── ExerciseList.jsx
-│           └── ExerciseList.css
+
 
