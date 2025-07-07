@@ -1,9 +1,10 @@
 [
   {
     "id": "1",
+    "type": "breathing",
     "name": "Deep Breathing",
-    "image": "/images/deep-breathing.jpg",
     "description": "A basic breathing exercise to calm the mind.",
+    "youtubeUrl": "https://www.youtube.com/embed/SEfs5TJZ6Nk",
     "benefits": ["Reduces stress", "Improves focus"],
     "posture": "Sit comfortably with your back straight.",
     "steps": [
@@ -15,9 +16,160 @@
   },
   {
     "id": "2",
+    "type": "breathing",
+    "name": "Box Breathing",
+    "description": "A structured breathing method to calm your nervous system.",
+    "youtubeUrl": "https://www.youtube.com/embed/FJJazKtH_9I",
+    "benefits": ["Calms anxiety", "Improves mental clarity"],
+    "posture": "Sit upright or lie down comfortably.",
+    "steps": [
+      "Inhale for 4 seconds.",
+      "Hold for 4 seconds.",
+      "Exhale for 4 seconds.",
+      "Hold for 4 seconds.",
+      "Repeat for 5 minutes."
+    ]
+  },
+  {
+    "id": "3",
+    "type": "breathing",
+    "name": "4-7-8 Breathing",
+    "description": "A calming technique to reduce anxiety and help with sleep.",
+    "youtubeUrl": "https://www.youtube.com/embed/yrqkVdwWGD0",
+    "benefits": ["Improves sleep", "Lowers blood pressure"],
+    "posture": "Sit or lie down in a relaxed position.",
+    "steps": [
+      "Inhale through the nose for 4 seconds.",
+      "Hold your breath for 7 seconds.",
+      "Exhale through the mouth for 8 seconds.",
+      "Repeat for 4–5 cycles."
+    ]
+  },
+  {
+    "id": "4",
+    "type": "breathing",
+    "name": "Alternate Nostril Breathing",
+    "description": "Balances energy and calms the nervous system.",
+    "youtubeUrl": "https://www.youtube.com/embed/SRM7tL5w6hE",
+    "benefits": ["Enhances focus", "Balances body and mind"],
+    "posture": "Sit in a cross-legged position with a straight spine.",
+    "steps": [
+      "Use right thumb to close right nostril, inhale through left.",
+      "Close left nostril, exhale through right.",
+      "Inhale through right, then exhale through left.",
+      "Repeat for 5 minutes."
+    ]
+  },
+  {
+    "id": "5",
+    "type": "breathing",
+    "name": "Pursed Lip Breathing",
+    "description": "Helps slow your breathing and relieve shortness of breath.",
+    "youtubeUrl": "https://www.youtube.com/embed/1r7kWNozu9E",
+    "benefits": ["Improves oxygen exchange", "Calms the mind"],
+    "posture": "Sit or lie down comfortably.",
+    "steps": [
+      "Inhale slowly through your nose for 2 seconds.",
+      "Purse your lips as if whistling.",
+      "Exhale slowly through pursed lips for 4 seconds.",
+      "Repeat for several minutes."
+    ]
+  },
+  {
+    "id": "6",
+    "type": "breathing",
+    "name": "Lion’s Breath",
+    "description": "Releases tension and stimulates the throat chakra.",
+    "youtubeUrl": "https://www.youtube.com/embed/sEmKXcYheCg",
+    "benefits": ["Releases tension", "Boosts energy"],
+    "posture": "Sit in a kneeling or cross-legged posture.",
+    "steps": [
+      "Inhale deeply through the nose.",
+      "Exhale forcefully through the mouth, sticking out the tongue.",
+      "Roar as you exhale.",
+      "Repeat 3–5 times."
+    ]
+  },
+  {
+    "id": "7",
+    "type": "breathing",
+    "name": "Resonant Breathing",
+    "description": "Breathe at a rate of 5-6 breaths per minute.",
+    "youtubeUrl": "https://www.youtube.com/embed/z6X5oEIg6Ak",
+    "benefits": ["Reduces anxiety", "Balances heart rate"],
+    "posture": "Sit or lie down in a comfortable position.",
+    "steps": [
+      "Inhale for 5 seconds.",
+      "Exhale for 5 seconds.",
+      "Maintain a slow, steady rhythm.",
+      "Continue for 10 minutes."
+    ]
+  },
+  {
+    "id": "8",
+    "type": "breathing",
+    "name": "Sama Vritti (Equal Breathing)",
+    "description": "Balances the nervous system through equal inhales and exhales.",
+    "youtubeUrl": "https://www.youtube.com/embed/LW4r6ey0xdE",
+    "benefits": ["Improves focus", "Reduces stress"],
+    "posture": "Sit in a quiet place with an upright posture.",
+    "steps": [
+      "Inhale through the nose for 4 seconds.",
+      "Exhale through the nose for 4 seconds.",
+      "Keep the breath smooth and even.",
+      "Repeat for 5–10 minutes."
+    ]
+  },
+  {
+    "id": "9",
+    "type": "breathing",
+    "name": "Ocean Breath (Ujjayi)",
+    "description": "Creates a gentle sound by constricting the throat.",
+    "youtubeUrl": "https://www.youtube.com/embed/XH3JdO2I8F8",
+    "benefits": ["Focuses the mind", "Generates heat"],
+    "posture": "Sit upright with a relaxed jaw.",
+    "steps": [
+      "Inhale through the nose while slightly constricting the throat.",
+      "Exhale with the same throat contraction, producing an ocean sound.",
+      "Repeat for 5–10 minutes."
+    ]
+  },
+  {
+    "id": "10",
+    "type": "breathing",
+    "name": "Kapalabhati",
+    "description": "A yogic breathing technique that energizes the body.",
+    "youtubeUrl": "https://www.youtube.com/embed/9PcGJhO1nL0",
+    "benefits": ["Energizes", "Cleanses respiratory system"],
+    "posture": "Sit with your spine straight and shoulders relaxed.",
+    "steps": [
+      "Inhale gently.",
+      "Forcefully exhale through the nose while pulling the belly in.",
+      "Allow passive inhalation.",
+      "Repeat 30 times, rest, then repeat for 3 rounds."
+    ]
+  },
+  {
+    "id": "11",
+    "type": "meditation",
+    "name": "Mindfulness Meditation",
+    "description": "Stay present by focusing on your breath and sensations.",
+    "youtubeUrl": "https://www.youtube.com/embed/inpok4MKVLM",
+    "benefits": ["Reduces stress", "Boosts awareness"],
+    "posture": "Sit with a straight back and eyes gently closed.",
+    "steps": [
+      "Bring your attention to the breath.",
+      "Notice thoughts as they come and go.",
+      "Gently bring focus back to the breath.",
+      "Continue for 10–15 minutes."
+    ]
+  },
+  {
+    "id": "12",
+    "type": "meditation",
     "name": "Body Scan Meditation",
-    "image": "/images/body-scan.jpg",
     "description": "Guided meditation to increase body awareness.",
+    "youtubeUrl": "https://www.youtube.com/embed/Q_fFATTk3Bo",
     "benefits": ["Relieves tension", "Improves sleep"],
     "posture": "Lie down or sit comfortably with eyes closed.",
     "steps": [
@@ -25,6 +177,126 @@
       "Move attention slowly upward through your body.",
       "Release tension as you scan each area.",
       "End the scan at the top of your head."
+    ]
+  },
+  {
+    "id": "13",
+    "type": "meditation",
+    "name": "Loving-Kindness Meditation",
+    "description": "Send goodwill to yourself and others.",
+    "youtubeUrl": "https://www.youtube.com/embed/-d_AA9H4z9U",
+    "benefits": ["Promotes empathy", "Increases positivity"],
+    "posture": "Sit upright in a quiet place.",
+    "steps": [
+      "Silently repeat phrases of goodwill toward yourself.",
+      "Extend those wishes to others in widening circles.",
+      "Feel the warmth and connection grow.",
+      "Continue for 10–20 minutes."
+    ]
+  },
+  {
+    "id": "14",
+    "type": "meditation",
+    "name": "Walking Meditation",
+    "description": "Mindfully walk to sync your breath with movement.",
+    "youtubeUrl": "https://www.youtube.com/embed/92i5m3tV5XY",
+    "benefits": ["Boosts awareness", "Releases stress"],
+    "posture": "Walk slowly in a quiet area.",
+    "steps": [
+      "Bring attention to the lifting and placing of your feet.",
+      "Feel the ground beneath you.",
+      "Keep your gaze soft and focused.",
+      "Repeat for 10–15 minutes."
+    ]
+  },
+  {
+    "id": "15",
+    "type": "meditation",
+    "name": "Zen Meditation (Zazen)",
+    "description": "Focus on the posture and breath to build awareness.",
+    "youtubeUrl": "https://www.youtube.com/embed/vC8gJ0zkb64",
+    "benefits": ["Calms the mind", "Enhances discipline"],
+    "posture": "Sit cross-legged with a straight back and eyes half-closed.",
+    "steps": [
+      "Focus on breath or sit in open awareness.",
+      "Let thoughts come and go without reacting.",
+      "Maintain stillness and focus.",
+      "Continue for 15–20 minutes."
+    ]
+  },
+  {
+    "id": "16",
+    "type": "meditation",
+    "name": "Chakra Meditation",
+    "description": "Balance energy centers through visualization.",
+    "youtubeUrl": "https://www.youtube.com/embed/bvLwLJ1C7NM",
+    "benefits": ["Restores energy", "Improves balance"],
+    "posture": "Sit comfortably and close your eyes.",
+    "steps": [
+      "Visualize each chakra, starting from the root.",
+      "Imagine its color and energy.",
+      "Breathe into that space.",
+      "Move upward through each chakra."
+    ]
+  },
+  {
+    "id": "17",
+    "type": "meditation",
+    "name": "Mantra Meditation",
+    "description": "Repeat a calming word or phrase to focus the mind.",
+    "youtubeUrl": "https://www.youtube.com/embed/oxhT9Zj3n9o",
+    "benefits": ["Increases concentration", "Lowers anxiety"],
+    "posture": "Sit with your back straight and eyes closed.",
+    "steps": [
+      "Choose a mantra (e.g., 'Om').",
+      "Repeat silently or aloud.",
+      "Refocus on mantra when distracted.",
+      "Continue for 10–20 minutes."
+    ]
+  },
+  {
+    "id": "18",
+    "type": "meditation",
+    "name": "Transcendental Meditation",
+    "description": "Use a personal mantra to reach a state of restful alertness.",
+    "youtubeUrl": "https://www.youtube.com/embed/Ba3NexhHTfc",
+    "benefits": ["Deep relaxation", "Enhanced creativity"],
+    "posture": "Sit comfortably with eyes closed.",
+    "steps": [
+      "Silently repeat your personal mantra.",
+      "Let the repetition be effortless.",
+      "Return to the mantra when distracted.",
+      "Practice for 20 minutes twice daily."
+    ]
+  },
+  {
+    "id": "19",
+    "type": "meditation",
+    "name": "Guided Imagery",
+    "description": "Use visualization to relax your mind and body.",
+    "youtubeUrl": "https://www.youtube.com/embed/ZToicYcHIOU",
+    "benefits": ["Reduces stress", "Improves sleep"],
+    "posture": "Sit or lie down comfortably with eyes closed.",
+    "steps": [
+      "Listen to a guided script.",
+      "Visualize calming scenery.",
+      "Immerse yourself in the experience.",
+      "Continue for 10–20 minutes."
+    ]
+  },
+  {
+    "id": "20",
+    "type": "meditation",
+    "name": "Breath Awareness Meditation",
+    "description": "Focus only on the sensation of breathing.",
+    "youtubeUrl": "https://www.youtube.com/embed/SEfs5TJZ6Nk",
+    "benefits": ["Improves mindfulness", "Calms the mind"],
+    "posture": "Sit upright with closed eyes.",
+    "steps": [
+      "Bring full attention to your breath.",
+      "Observe the inhale and exhale.",
+      "Refocus if your mind wanders.",
+      "Continue for 10 minutes."
     ]
   }
 ]

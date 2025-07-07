@@ -1,15 +1,35 @@
-{exercises.slice(0, 10).map((ex) => (
-  <div className="exercise-card" key={ex.id}>
-    <h3>{ex.name}</h3>
-    <p>{ex.description}</p>
-    <iframe
-      width="100%"
-      height="200"
-      src={ex.youtubeUrl}
-      title={ex.name}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-))}
+.exercise-list {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.exercise-list h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.exercise-entry {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-entry h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.exercise-entry p {
+  margin: 0.5rem 0;
+}
+
+.exercise-entry ul, .exercise-entry ol {
+  margin-left: 1.5rem;
+}

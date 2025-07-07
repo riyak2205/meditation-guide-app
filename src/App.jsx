@@ -1,13 +1,14 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Detail from "./pages/Detail";
+import ExerciseList from "./pages/ExerciseList";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exercise/:id" element={<Detail />} />
+        <Route path="/exercises/:type" element={<ExerciseList />} />
       </Routes>
     </Router>
   );

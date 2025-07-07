@@ -1,29 +1,21 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import ExerciseCard from "../components/ExerciseCard";
-import DailyPlan from "../components/DailyPlan";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
-  const [exercises, setExercises] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/api/exercises")
-      .then((res) => res.json())
-      .then(setExercises);
-  }, []);
+  const navigate = useNavigate();
 
   return (
-    <div className="container">
-      <h1 className="title">Meditation & Breathing Exercises</h1>
-      <div className="grid">
-        {exercises.map((exercise) => (
-          <Link to={`/exercise/${exercise.id}`} key={exercise.id}>
-            <ExerciseCard exercise={exercise} />
-          </Link>
-        ))}
+    <div className="home-container">
+      <h1>Meditation Guide</h1>
+      <div className="home-buttons">
+        <button onClick={() => navigate("/exercises/meditation")}>
+          Meditation Exercises
+        </button>
+        <button onClick={() => navigate("/exercises/breathing")}>
+          Breathing Exercises
+        </button>
       </div>
-      <DailyPlan exercises={exercises.slice(0, 3)} />
     </div>
   );
 }

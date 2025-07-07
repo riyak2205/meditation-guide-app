@@ -1,28 +1,44 @@
 const express = require("express");
 const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
+
 const app = express();
 const PORT = 5000;
 
-// ✅ Loads the JSON file (make sure spelling is correct: exercises.json)
-const exercises = require("./data/exercises.json");
-
+// Middleware
 app.use(cors());
 
+// Default route for sanity check
+app.get("/", (req, res) => {
+  res.send("🧘‍♀️ Meditation Guide Backend is Running");
+});
+
+// GET all exercises or filter by ?type=meditation/breathing
 app.get("/api/exercises", (req, res) => {
-  res.json(exercises);
+  const type = req.query.type;
+
+  fs.readFile(path.join(__dirname, "data", "exercises.json"), "utf8", (err, data) => {
+    if (err) {
+      console.error("Error reading JSON:", err);
+      return res.status(500).send("Failed to read data");
+    }
+
+    try {
+      const exercises = JSON.parse(data);
+      const filtered = type
+        ? exercises.filter((ex) => ex.type?.toLowerCase() === type.toLowerCase())
+        : exercises;
+
+      res.json(filtered);
+    } catch (parseError) {
+      console.error("Error parsing JSON:", parseError);
+      res.status(500).send("Invalid JSON format");
+    }
+  });
 });
 
-app.get("/api/exercises/:id", (req, res) => {
-  const id = req.params.id;
-  const exercise = exercises.find((e) => e.id === id);
-  if (exercise) {
-    res.json(exercise);
-  } else {
-    res.status(404).send({ message: "Exercise not found" });
-  }
-});
-
-// ✅ Server will now log to console
+// Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
+  console.log(`✅ Server is running on http://localhost:${PORT}`);
 });
