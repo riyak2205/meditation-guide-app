@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Deep Breathing",
+    "image": "/images/deep-breathing.jpg",
+    "description": "A basic breathing exercise to calm the mind.",
+    "benefits": ["Reduces stress", "Improves focus"],
+    "posture": "Sit comfortably with your back straight.",
+    "steps": [
+      "Inhale slowly through your nose for 4 seconds.",
+      "Hold your breath for 4 seconds.",
+      "Exhale slowly through your mouth for 4 seconds.",
+      "Repeat for 5-10 minutes."
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Body Scan Meditation",
+    "image": "/images/body-scan.jpg",
+    "description": "Guided meditation to increase body awareness.",
+    "benefits": ["Relieves tension", "Improves sleep"],
+    "posture": "Lie down or sit comfortably with eyes closed.",
+    "steps": [
+      "Focus on your toes and notice any sensations.",
+      "Move attention slowly upward through your body.",
+      "Release tension as you scan each area.",
+      "End the scan at the top of your head."
+    ]
+  }
+]
