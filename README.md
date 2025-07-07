@@ -25,22 +25,21 @@ A calming web app that helps users explore guided **meditation** and **breathing
 
 ## 🚀 Getting Started
 
-### Step 1: Clone the repository
+# Step 1: Clone the repository
 git clone https://github.com/yourusername/meditation-guide-app.git
 cd meditation-guide-app
 
-Step 2: Start the Backend Server
+# Step 2: Start the Backend Server
 cd backend
 npm install
 node server.js
-Backend runs at: http://localhost:5000
+# ➜ Backend runs at: http://localhost:5000
 
-Step 3: Start the Frontend Server
+# Step 3: Start the Frontend App
 cd ../frontend
 npm install
 npm start
-Frontend runs at: http://localhost:3000
-If port 3000 is busy, it’ll prompt for another — press Y
-
+# ➜ Frontend runs at: http://localhost:3000
+# If port 3000 is busy, it’ll prompt for another — press Y
 
 
