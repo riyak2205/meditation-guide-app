@@ -1,35 +1,65 @@
 .exercise-list {
-  padding: 2rem;
-  max-width: 900px;
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  max-width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: linear-gradient(to bottom right, #e0f7fa, #fff);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e3a59;
 }
 
 .exercise-list h2 {
   text-align: center;
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  color: #375f73;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
 .exercise-entry {
-  background: #f9f9f9;
-  padding: 1.5rem;
+  background: #ffffffc2;
+  padding: 2rem;
   margin-bottom: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.exercise-entry:hover {
+  transform: translateY(-4px);
 }
 
 .exercise-entry h3 {
   margin-top: 0;
-  font-size: 1.5rem;
-  color: #444;
+  font-size: 1.6rem;
+  color: #2b4c5c;
+  margin-bottom: 0.5rem;
 }
 
 .exercise-entry p {
-  margin: 0.5rem 0;
+  margin: 0.6rem 0;
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
 
-.exercise-entry ul, .exercise-entry ol {
-  margin-left: 1.5rem;
+.exercise-entry ul,
+.exercise-entry ol {
+  margin: 0.5rem 0 1rem 1.5rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.exercise-entry iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subheading {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #36586c;
+  font-size: 1.1rem;
 }
