@@ -11,10 +11,13 @@ function Home() {
         <h1>Meditation Guide</h1>
         <div className="home-buttons">
           <button onClick={() => navigate("/exercises/meditation")}>
-            Meditation Exercises
+            🧘‍♀️ Meditation Exercises
           </button>
           <button onClick={() => navigate("/exercises/breathing")}>
-            Breathing Exercises
+            🌬️ Breathing Exercises
+          </button>
+          <button onClick={() => navigate("/daily-routine")}>
+            📅 Daily Routine
           </button>
         </div>
       </div>

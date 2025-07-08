@@ -13,7 +13,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("/public/yoga.webp");
+  background-image: url("/public/yoga.webp"); /* ✅ Correct path */
   background-size: cover;
   background-position: center;
   filter: brightness(0.4); /* makes image faint */

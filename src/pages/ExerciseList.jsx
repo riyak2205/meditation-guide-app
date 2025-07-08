@@ -33,26 +33,25 @@ function ExerciseList() {
           <div key={ex.id} className="exercise-entry">
             <h3>{ex.name}</h3>
 
-            {ex.youtubeUrl && (
-              <iframe
-                width="100%"
-                height="300"
-                src={ex.youtubeUrl}
-                title={ex.name}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            {/* ✅ Smart Responsive Image */}
+            {ex.image && (
+              <img
+                src={ex.image}
+                alt={ex.name}
+                className="exercise-image"
+              />
             )}
 
             <p><strong>Description:</strong> {ex.description}</p>
             <p><strong>Posture:</strong> {ex.posture}</p>
+
             <p><strong>Benefits:</strong></p>
             <ul>
               {ex.benefits.map((b, i) => (
                 <li key={i}>{b}</li>
               ))}
             </ul>
+
             <p><strong>Steps:</strong></p>
             <ol>
               {ex.steps.map((s, i) => (
